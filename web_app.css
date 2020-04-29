@@ -50,3 +50,22 @@
   bottom: 0;
   width: 100%;
 }
+
+#charts{
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.data{
+  text-align: center;
+}
+
+.value{
+  text-align: right;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
