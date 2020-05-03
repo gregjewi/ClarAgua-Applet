@@ -26,9 +26,6 @@ name
 ----
 _internal
 chlorinators
-> USE CHLORINATORS
-ERR: Database CHLORINATORS doesn't exist. Run SHOW DATABASES for a list of existing databases.
-DB does not exist!
 > USE chlorinators
 Using database chlorinators
 > SHOW SERIES
