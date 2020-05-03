@@ -16,7 +16,7 @@ Scheduled running of the script is handled through crontab:
 
 # Database Schema
 
-``ubuntu@ip-172-31-35-198:~/scripts$ influx
+```ubuntu@ip-172-31-35-198:~/scripts$ influx
 Connected to http://localhost:8086 version 1.7.10
 InfluxDB shell version: 1.7.10
 > SHOW DATABASES
@@ -61,4 +61,4 @@ ERR: error parsing query: found TAB, expected CONTINUOUS, DATABASES, DIAGNOSTICS
 name: smart
 tagKey
 ------
-sid``
+sid```
