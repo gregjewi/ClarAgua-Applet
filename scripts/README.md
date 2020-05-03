@@ -16,7 +16,8 @@ Scheduled running of the script is handled through crontab:
 
 # Database Schema
 
-```ubuntu@ip-172-31-35-198:~/scripts$ influx
+```
+ubuntu@ip-172-31-35-198:~/scripts$ influx
 Connected to http://localhost:8086 version 1.7.10
 InfluxDB shell version: 1.7.10
 > SHOW DATABASES
@@ -53,12 +54,9 @@ ph          float
 tablet      float
 tank        float
 valve       float
-> SHOW TAG VALUES
-ERR: error parsing query: found EOF, expected WITH at line 1, char 17
-> SHOW TAB KEYS
-ERR: error parsing query: found TAB, expected CONTINUOUS, DATABASES, DIAGNOSTICS, FIELD, GRANTS, MEASUREMENT, MEASUREMENTS, QUERIES, RETENTION, SERIES, SHARD, SHARDS, STATS, SUBSCRIPTIONS, TAG, USERS at line 1, char 6
 > SHOW TAG KEYS
 name: smart
 tagKey
 ------
-sid```
+sid
+```
