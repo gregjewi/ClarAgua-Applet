@@ -15,7 +15,7 @@
 			query DB about the aggregate results
 			*/
 
-			var query_str = '../../query1d.php?sid=' + <?php echo json_encode(basename(__DIR__)); ?>;
+			var query_str = '../../app/query1d.php?sid=' + <?php echo json_encode(basename(__DIR__)); ?>;
 			var request = new XMLHttpRequest();
 			request.onload = function(){
 				if (this.readyState == 4 && this.status == 200){

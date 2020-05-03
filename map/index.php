@@ -20,9 +20,11 @@
 	</div>
 
 	<div id="mapContainer">
-		<h1>Interactive Map Here</h1>
-		<img src="NU-map.gif" alt="Nicaraqua Map">
+		<h1>EOS Chlorinator Installations</h1>
+		<iframe src="https://www.google.com/maps/d/embed?mid=14__7NcGsEFcn253_qI0pZL2LXSY" width="300" height="400"></iframe> 
 	</div>
+	
+
 
 </body>
 </html>

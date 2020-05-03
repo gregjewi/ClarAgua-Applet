@@ -8,10 +8,16 @@
 require __DIR__ . '/vendor/autoload.php';
 include __DIR__ . '/dbconnect.php';
 
-# Sensor ID
-$sid = $_GET["sid"];
 
-$result = $database->query('SELECT * FROM smart WHERE (sid = \''.$sid.'\') AND time >= now() - 1d ORDER BY time DESC');
+
+# Sensor ID + days sampled
+$sid = $_GET["sid"];
+$days = $_GET["days"];
+
+# setting default of one day
+if ($days=='') $days=1;
+
+$result = $database->query('SELECT * FROM smart WHERE (sid = \''.$sid.'\') AND time >= now() - '.$days.'d ORDER BY time DESC');
 $points = $result->getPoints();
 
 echo json_encode($points);
