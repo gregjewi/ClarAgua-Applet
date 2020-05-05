@@ -1,7 +1,7 @@
 # TeamNicaMobileApp
 Smart Chlorinator Beta App
 
-Project Description:
+Project Description Presentation:
 <iframe src="https://slides.com/gregoryewing/team-nica-web/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
@@ -14,7 +14,7 @@ This repository serves two purposes:
 The two purposes share a common goal:
 **Make it easy for anyone coming behind us to pickup where we left off.**
 
-On every level of this repository you will find a README doc much like this that goes into detail about what is contained in the files.
+On every level of this repository you will find a README doc much like this that goes into detail about what is contained in the files. 
 
 With that in mind...
 
@@ -51,10 +51,13 @@ The overwhelming majority of things that would be messed with are here.
 Here, the Apache server (that is on the aws instance,) can interpret php files and serve the html, etc. to the user's phone/browser.
 Everything else -- files, etc. -- that sits on the instance cannot be accessed via a user's browser.
 
+**All files and directories in this repository NOT prepended with ``'_'`` are found in ``/var/www/html/`` on the aws instance.**
+
 #### Data Ingest, Database
+**All of the files and directories that HAVE a ``'_'`` prepended in this repo are in this category.**
 Did something change in how the data is shared with us?
 Perhaps the format was changed, or there's an easier way to ingest the data from source?
-You want the ``/scripts`` directory.
+You want the ``/_scripts`` directory.
 **See ``readme`` in scripts directory for more info.**
 
 Want to manage the database itself? Type ``influx`` + enter key in the command line to enter into the 
@@ -63,4 +66,4 @@ Want to manage the database itself? Type ``influx`` + enter key in the command l
 [Explore your schema using InfluxQL](https://docs.influxdata.com/influxdb/v1.8/query_language/explore-schema/).
 Note: you can enter into the influx CLI from any location in the aws instance.
 
-**Tip: Check out the database schema readme**
+**Tip: Check out the database schema readme under the ``_database`` directory**
