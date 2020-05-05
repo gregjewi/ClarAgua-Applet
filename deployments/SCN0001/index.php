@@ -16,7 +16,7 @@
 			query DB about the aggregate results
 			*/
 
-			var query_str = '../../app/query1d.php?sid=' + <?php echo json_encode(basename(__DIR__)); ?> + '&days=' + days;
+			var query_str = '../../app/query.php?sid=' + <?php echo json_encode(basename(__DIR__)); ?> + '&days=' + days;
 			var request = new XMLHttpRequest();
 			request.onload = function(){
 				if (this.readyState == 4 && this.status == 200){
