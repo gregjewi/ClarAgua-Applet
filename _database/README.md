@@ -11,7 +11,9 @@ How we employ these schema are found below in the code block retrieved from the 
 See the [InfluxDB documentation](https://docs.influxdata.com/influxdb/v1.8/concepts/schema_and_data_layout/) about their schema and best practices.
 
 ```
+Enter 'influx' command on command line to connect to interface
 ubuntu@ip:~/scripts$ influx
+
 Connected to http://localhost:8086 version 1.7.10
 InfluxDB shell version: 1.7.10
 > SHOW DATABASES
