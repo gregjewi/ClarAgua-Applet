@@ -11,7 +11,7 @@ else
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Team Nica Beta Web App</title>
+	<title>ClarAgua</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="web_app.css">
@@ -34,7 +34,7 @@ else
 
 	<!-- Top Navigation Menu -->
 	<div class="topnav">
-	  <a href="" class="active">Team Nica Web App</a>
+	  <a href="" class="active">ClarAgua</a>
 	  <!-- Navigation links (hidden by default) -->
 	  <div id="myLinks">
 	  	<a href="./deployments/SCN0001/">SCN0001</a>
@@ -58,28 +58,32 @@ else
 	</div>
 
 	<div id="Landing">
-		<h1>Welcome Landing Page</h1>
+		<h1>Smart Chlorinator Network</h1>
 		<p>
-			Here a paragraph about the project.
-			It goes like this:
-			Let's give a quick overview.
-			Something pithy.
+			Welcome to the Smart Chlorinator Network mobile app: ClarAgua
 		</p>
 		<p>
-			Here's another paragraph. 
-			This one can be shorter.
+			To view live data please navigate to the SCN0001 tab.
+		</p>
+		<p>
+			The ClarAgua mobile app allows technicians and researchers alike to view data from the first Smart Chlorinator installed in La Sirena Nicaragua. This platform will eventually serve all of the Smart Chlorinators across Nicaragua and Honduras, giving technicians the capacity to communicate with and calibrate Smart Chlorinators.
 		</p>
 	</div>
 
 	<div id="About" style="display: none">
-		This is a project for Megan Lindmark.
-		She is a bad ass.
+		EOS International installs inline chlorination systems throughout Nicaragua and Honduras. In 2019, in partnership with EOS, a team of UIowa researchers outfitted one chlorinator in La Sirena with water quality sensors and cellular data transmission capacity to bring the chlorinator online. 
 	</div>
 
 	<div id="Contact" style="display: none">
-		Get at me:
+		Contact
 		<br>
-		Megan dash Lindmark    at     uiowa      dot      com
+		Graduate Student:
+		<br>
+		megan-lindmark@uiowa.edu
+		<br>
+		(913) 378-4505
+		<br>
+		Applet designed by (mostly) Greg Ewing + Megan Lindmark
 	</div>
 
 </body>

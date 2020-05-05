@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Team Nica: Beta Page SCN0001</title>
+		
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="../../web_app.css">
@@ -10,12 +11,12 @@
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
 	<script type="text/javascript">
-		function siteData(){
+		function siteData(days=1){
 			/*
 			query DB about the aggregate results
 			*/
 
-			var query_str = '../../app/query1d.php?sid=' + <?php echo json_encode(basename(__DIR__)); ?>;
+			var query_str = '../../app/query1d.php?sid=' + <?php echo json_encode(basename(__DIR__)); ?> + '&days=' + days;
 			var request = new XMLHttpRequest();
 			request.onload = function(){
 				if (this.readyState == 4 && this.status == 200){
@@ -103,7 +104,7 @@
 			var options = {
 				title: 'Chlorinator Flow',
 				chart: {},
-				vAxis:{title:'Flow (cfs)'},
+				vAxis:{title:'Flow (gpm)'},
 				legend:{position:'none'},
 				width:'100%'
 			};
@@ -130,7 +131,7 @@
 				legend:{position:'none'},
 
 				vAxis:{
-					title:'Flow (cfs)'
+					title:'ORP mV'
 					// viewWindow:{
 					// 	max:900,
 					// 	min:700,
@@ -146,6 +147,14 @@
 
 		}
 
+		function GetSelectedValue(){
+			var e = document.getElementById("TimeHistory");
+			var result = e.options[e.selectedIndex].value;
+
+			document.getElementById("showingLast").innerHTML = 'Showing last ' + result + ' days of data.';
+			siteData(result);
+		}
+
 	</script>
 
 </head>
@@ -154,7 +163,7 @@
 
 	<!-- Top Navigation Menu -->
 	<div class="topnav">
-	  <a href="../../" class="active">Homepage</a>
+	  <a href="../../" class="active">Home</a>
 	
 	  <a href="." class="icon">
 	  	<img src="../../images/noun_Refresh.svg" alt="refresh">
@@ -166,6 +175,22 @@
 
 	<div id="charts" class="data" style="width:98%">
 		<h3>Diagnostics</h3>
+
+		<!-- Selector for time history -->
+		<div id="TimeHistorySelection">
+			Show last:
+			<select id="TimeHistory">
+				<option value=1>-- Select --</option>
+				<option value=1>past 24 hours</option>
+				<option value=4>4 days</option>
+				<option value=7>1 weeks</option>
+				<option value=14>2 weeks</option>
+			</select>
+			<button type="button" onclick="GetSelectedValue()">Go</button>
+		</div>
+
+		<p id="showingLast">Showing Last 24 hours of data</p>
+		<!-- Charts filled with google charts -->
 		<div id="flowTs"></div>
 		<br>
 		<div id="orp"></div>
