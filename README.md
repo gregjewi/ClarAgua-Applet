@@ -26,7 +26,7 @@ Each of these has its own learning curve.
 We encourage you to fill in the gaps of knowledge that you think you may need elsewhere.
 If you have any questions, bother Greg.
 
-This entire project is deployed from a single, free tiear AWS Ubuntu instance.
+This entire project is deployed from a single, free tier AWS Ubuntu instance.
 This is bad practice in the long-term, but in the short term this is just fine.
 If you ever scale to something operational, then you'll need to rethink.
 
@@ -67,3 +67,14 @@ Want to manage the database itself? Type ``influx`` + enter key in the command l
 Note: you can enter into the influx CLI from any location in the aws instance.
 
 **Tip: Check out the database schema readme under the ``_database`` directory**
+
+## Conclusion
+So that's that.
+Thanks for reading this.
+If you are just getting started, you probably have a lot more questions.
+That's **OK**.
+Go over to [Issues](https://github.com/gregjewi/TeamNicaMobileApp/issues) and leave a question, complaint, or a comment about something not working.
+We will try to get back ASAP.
+
+Best,
+Greg & Megan
