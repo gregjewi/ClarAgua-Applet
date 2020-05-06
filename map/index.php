@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	<meta author="Gregory Ewing">
+	<meta author="Megan Lindmark">
 	<title>Team Nica: Map Beta</title>
 	<link rel="stylesheet" type="text/css" href="../web_app.css">
 	<link rel="stylesheet" type="text/css" href="../style.css">
