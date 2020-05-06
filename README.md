@@ -79,4 +79,4 @@ We will try to get back ASAP.
 Best,
 Greg & Megan
 #### PS: Grafana Dashboard
-For managers an researchers looking to interact with the full dataset, we are using a [Grafana](https://grafana.com/). Contact Megan dash Lindmark at uiowa dot edu for link and access. 
+For managers and researchers looking to interact with the full dataset, we are using a [Grafana](https://grafana.com/). Contact Megan dash Lindmark at uiowa dot edu for link and access. 
