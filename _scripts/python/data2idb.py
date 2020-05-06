@@ -36,11 +36,11 @@ def str_to_sec(timestr):
 root = 'http://iwisfe.its.uiowa.edu/data/archival/SCN0001/'
 
 
-host = 'ec2-18-223-162-48.us-east-2.compute.amazonaws.com'
+host = 'HOSTNAME'
 port = 8086
-username = 'daemon'
-password = 'chlorine_rule'
-database = 'chlorinators'
+username = 'USERNAME'
+password = 'PASSWORD'
+database = 'DATABASE'
 
 influx_client = influxdb.InfluxDBClient(host=host, port=port, database=database,username=username, password=password)
 
