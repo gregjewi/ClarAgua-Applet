@@ -1,3 +1,7 @@
+# By: Gregory Ewing
+# Date: May 2020
+# Info: text file data on server to influxDB
+
 import urllib3
 import requests
 import urllib.request
