@@ -6,6 +6,7 @@
 
 	<title>Team Nica: Map Beta</title>
 	<link rel="stylesheet" type="text/css" href="../web_app.css">
+	<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 <body>
 
@@ -18,9 +19,9 @@
 	  </a>
 	  	  
 	</div>
-
-	<div id="mapContainer">
-		<h1>EOS Chlorinator Installations</h1>
+<h1>EOS Chlorinator Installations</h1>
+	<div class="mapcontainer">
+		
 		<iframe src="https://www.google.com/maps/d/embed?mid=14__7NcGsEFcn253_qI0pZL2LXSY" width="300" height="400"></iframe> 
 	</div>
 	

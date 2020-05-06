@@ -15,6 +15,7 @@ else
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="web_app.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>	
 
@@ -72,9 +73,13 @@ else
 
 	<div id="About" style="display: none">
 		EOS International installs inline chlorination systems throughout Nicaragua and Honduras. In 2019, in partnership with EOS, a team of UIowa researchers outfitted one chlorinator in La Sirena with water quality sensors and cellular data transmission capacity to bring the chlorinator online. 
+		<br>
+		<br>
 	</div>
 
 	<div id="Contact" style="display: none">
+		<br>
+		<br>
 		Contact
 		<br>
 		Graduate Student:

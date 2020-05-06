@@ -1,9 +1,9 @@
-@import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@import url(//fonts.googleapis.com/css?family=Jost:300,400,700);
 
 
 html *{
   transition: all 600ms cubic-bezier(0.86, 0, 0.07, 1) !important;
-  font-family: 'Open Sans';
+  font-family: 'Jost';
   font-weight: 300;
   letter-spacing: .5px;
 }
@@ -19,6 +19,13 @@ body{
   position: relative;
   overflow: hidden;
   top: 50px;
+}
+.mapcontainer{
+	width: 90%;
+	height: 40%;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
 }
 
 .layer{
