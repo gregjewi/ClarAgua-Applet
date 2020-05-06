@@ -1,5 +1,6 @@
 <?php
-
+// By: Gregory Ewing and Megan Lindmark
+// Date: May 2020
 // Influxdb connection code.
 // write 'include dbconnect.php' in other php files to avoid writing this over and over.
 
