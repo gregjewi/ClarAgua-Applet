@@ -1,6 +1,8 @@
 <?php
+// By: Gregory Ewing and Megan Lindmark
+// Date: May 2020
 
-// DESCRIPTION: query 1 days worth of data from the location supplied in the url.
+// DESCRIPTION: query [default] 1 day(s) worth of data from the location supplied in the url.
 
 // Returns results as JSON in descending order from most recent data point.
 
