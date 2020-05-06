@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Team Nica: Beta Page SCN0001</title>
-		
+	<title>ClarAgua SCN0001</title>
+	<meta author="Gregory Ewing">
+	<meta author="Megan Lindmark">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="../../web_app.css">
