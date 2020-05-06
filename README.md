@@ -1,4 +1,4 @@
-# TeamNicaMobileApp
+# ClarAgua
 Smart Chlorinator Beta App
 
 Project Description Presentation:
@@ -6,10 +6,10 @@ Project Description Presentation:
 
 
 # What You'll Find Here
-Welcome to the Smart Chlorinator Beta App Github Repository.
+Welcome to the Github repository of  ClarAgua, a web applet for real time visualization of smart chlorinators in the EOS system. 
 This repository serves two purposes:
-1. The final product of CEE:6959 at the University of Iowa
-2. Provide continuity for the next people who may come into this project
+1. Is the final product of CEE:5993 at the University of Iowa, and
+2. Provides continuity for the next people who may come into this project.
 
 The two purposes share a common goal:
 **Make it easy for anyone coming behind us to pickup where we left off.**
@@ -73,8 +73,10 @@ So that's that.
 Thanks for reading this.
 If you are just getting started, you probably have a lot more questions.
 That's **OK**.
-Go over to [Issues](https://github.com/gregjewi/TeamNicaMobileApp/issues) and leave a question, complaint, or a comment about something not working.
+Go over to [Issues](https://github.com/gregjewi/ClarAgua-Applet/issues) and leave a question, complaint, or a comment about something not working.
 We will try to get back ASAP.
 
 Best,
 Greg & Megan
+#### PS: Grafana Dashboard
+For managers an researchers looking to interact with the full dataset, we are using a [Grafana](https://grafana.com/). Contact Megan dash Lindmark at uiowa dot edu for link and access. 
