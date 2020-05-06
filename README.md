@@ -1,6 +1,8 @@
 # ClarAgua
 Smart Chlorinator Beta App
 
+Authors: Gregory Ewing and Megan Lindmark
+
 Project Description Presentation:
 <iframe src="https://slides.com/gregoryewing/team-nica-web/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
