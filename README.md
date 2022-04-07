@@ -3,8 +3,7 @@ Smart Chlorinator Beta App
 
 Authors: Gregory Ewing and Megan Lindmark
 
-Project Description Presentation:
-<iframe src="https://slides.com/gregoryewing/claragua-applet/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+**NOTE: This repo has been archived.**
 
 
 # What You'll Find Here
